@@ -8,10 +8,10 @@ import { Button } from "./components/Button"
 
 export function App() {
   return (
-    <div className=" sm:mx-auto sm:flex sm:flex-col sm:items-center lg:max-w-200 lg:rounded-4xl">
-      <main className="sm:bg-white lg:flex flex-row-reverse">
+    <div className="bg-white sm:max-w-sm sm:mx-auto sm:flex sm:flex-col sm:items-center sm:mt-2 lg:max-w-4xl lg:rounded-[2rem] overflow-hidden lg:mt-16">
+      <main className="lg:flex flex-row-reverse ">
         <Header />
-        <div className="sm:px-6 lg:py-12 lg:w-190 ">
+        <div className="sm:px-6 lg:py-12 lg:w-3xl ">
           <Title>Stay updates!</Title>
           <Card>Join 60,000+ product managers receiving monthly updates on:</Card>
           <Card svgSrc={IconList}>Product discovery and building what matters</Card>
