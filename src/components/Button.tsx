@@ -1,5 +1,6 @@
-interface ButtonProps {
+interface ButtonProps extends React.ComponentProps<"button"> {
     children: string
+
 }
 export function Button({ children, ...rest }: ButtonProps) {
     return (
