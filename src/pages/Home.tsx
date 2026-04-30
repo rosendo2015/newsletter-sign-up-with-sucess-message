@@ -44,7 +44,7 @@ export function Home() {
                         <Card svgSrc={IconList}>And much more!</Card>
                         <form onSubmit={handleSubmit(onSubmit)} className="mt-10">
                             <Input
-                                label="Email address"
+                                label="Email_Address"
                                 {...register("email")}
                                 error={errors.email?.message}
                             />
