@@ -34,7 +34,7 @@ export function Home() {
     return (
         <main className="flex items-center justify-center w-full lg:h-screen">
             <div className="bg-white max-w-sm mx-auto flex flex-col items-center justify-center mt-2 lg:max-w-4xl lg:rounded-[2rem] overflow-hidden">
-                <main className="lg:flex flex-row-reverse ">
+                <div className="lg:flex flex-row-reverse ">
                     <Header />
                     <div className="px-6 lg:px-12 lg:py-12 lg:max-w-[450px] lg:mx-2">
                         <Title>Stay updates!</Title>
@@ -52,7 +52,7 @@ export function Home() {
                             <Button>Subscribe to monthly newsletter</Button>
                         </form>
                     </div>
-                </main>
+                </div>
             </div>
         </main>
     )
